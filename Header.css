@@ -1,0 +1,59 @@
+.custom-header {
+    background-color: rgb(212, 65, 225);
+    padding: 10px 0; /* Reduce top and bottom padding */
+    box-shadow: 0 2px 4px rgba(157, 150, 14, 0.1);
+  }
+  
+  .custom-header .highlight {
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .custom-header .logo {
+    font-size: 1.2em; /* Reduce the logo font size */
+    color: #a7b1ff;
+  }
+  
+  .custom-header .search-input {
+    width: 100%;
+    background-color: rgb(255, 131, 241);
+    color: #333;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 0.9em; /* Reduce the input font size */
+  }
+  
+  .custom-header .ui.primary.button {
+    background-color: #ffa1a1;
+    color: #333;
+    font-size: 0.9em;
+  }
+  
+  .custom-header .ui.dropdown {
+    color: #333;
+    font-size: 0.9em;
+  }
+  
+  .custom-header .ui.avatar.image {
+    margin-right: 0.5em; /* Reduce the spacing */
+  }
+  
+  /* Add a media query for smaller screens */
+  @media screen and (max-width: 768px) {
+    .custom-header {
+      padding: 5px 0; /* Further reduce padding for smaller screens */
+    }
+  
+    .custom-header .search-input {
+      font-size: 0.8em; /* Reduce input font size for smaller screens */
+    }
+  
+    .custom-header .ui.primary.button {
+      font-size: 0.8em; /* Reduce button font size for smaller screens */
+    }
+  
+    .custom-header .ui.dropdown {
+      font-size: 0.8em; /* Reduce dropdown font size for smaller screens */
+    }
+  }
+  
